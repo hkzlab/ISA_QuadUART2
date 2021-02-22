@@ -5400,10 +5400,238 @@ Text Label 22500 4700 2    50   ~ 0
 TX_D
 Text Label 22500 4900 2    50   ~ 0
 RX_D
+Text Notes 20750 9250 0    50   ~ 0
+32K
+Text Notes 20750 9350 0    50   ~ 0
+64K
+Text Notes 20750 9450 0    50   ~ 0
+A18
+Text Notes 20750 9550 0    50   ~ 0
+A17
+Text Notes 20750 9650 0    50   ~ 0
+A16
+Text Notes 20750 9750 0    50   ~ 0
+A15
+Text Notes 20750 9850 0    50   ~ 0
+ENA
+Wire Notes Line
+	20900 9200 21000 9200
+Wire Notes Line
+	21000 9200 21000 9300
+Wire Notes Line
+	21000 9300 20900 9300
+Text Notes 21050 9300 0    39   ~ 0
+Jumper ONE of these two to\nselect 32K or 64K ROM slot size
+Text Notes 21050 9850 0    39   ~ 0
+Jumper to ENABLE the ROM
+Wire Notes Line
+	20550 5900 20250 5900
+Wire Notes Line
+	20250 5900 20250 7300
+Wire Notes Line
+	20250 7300 20550 7300
+Text Notes 20250 6900 1    50   ~ 0
+32K ROM bank
+Wire Notes Line
+	20200 5900 20050 5900
+Wire Notes Line
+	20050 5900 20050 7400
+Wire Notes Line
+	20050 7400 20400 7400
+Text Notes 20050 6900 1    50   ~ 0
+64K ROM bank
+Text Notes 18700 7150 0    39   ~ 0
+If 32K mode is set, the A15 line will\nnot be used to address the content\nof the ROM (FLASH_A15 will be always\nlow), but will be decoded by the\n'688 to decide whether the ROM gets\nenabled or not.\n\nIn 64K mode, the A15 line will be used\nto address the content of the ROM,\nthe A15 jumper MUST be set, otherwise\nthe decoder will fail to enable the ROM\n(note how the COMPARATOR_A15 line\nwill be pulled low by R1).
+Text Notes 21750 10650 0    39   ~ 0
+A18
+Text Notes 21950 10650 0    39   ~ 0
+A17
+Text Notes 22150 10650 0    39   ~ 0
+A16
+Text Notes 22350 10650 0    39   ~ 0
+A15
+Wire Notes Line
+	22500 10700 21250 10700
+Wire Notes Line
+	21250 10850 22500 10850
+Text Notes 21350 10800 0    50   ~ 0
+A000h
+Wire Notes Line
+	21250 11000 22500 11000
+Wire Notes Line
+	21250 11150 22500 11150
+Wire Notes Line
+	21250 11300 22500 11300
+Wire Notes Line
+	21250 11450 22500 11450
+Wire Notes Line
+	21250 11600 22500 11600
+Wire Notes Line
+	22500 10600 22500 11600
+Wire Notes Line
+	21700 10600 21700 11600
+Wire Notes Line
+	21900 10600 21900 11600
+Wire Notes Line
+	22100 10600 22100 11600
+Wire Notes Line
+	22300 10600 22300 11600
+Text Notes 21350 10950 0    50   ~ 0
+B000h
+Text Notes 21350 11100 0    50   ~ 0
+C000h
+Text Notes 21350 11250 0    50   ~ 0
+D000h
+Text Notes 21350 11400 0    50   ~ 0
+E000h
+Text Notes 21350 11550 0    50   ~ 0
+F000h
+Text Notes 21350 10650 0    39   ~ 0
+64K
+Text Notes 22400 10800 0    50   ~ 0
+X
+Text Notes 22400 10950 0    50   ~ 0
+X
+Text Notes 22400 11100 0    50   ~ 0
+X
+Text Notes 22400 11250 0    50   ~ 0
+X
+Text Notes 22400 11400 0    50   ~ 0
+X
+Text Notes 22400 11550 0    50   ~ 0
+X
+Text Notes 22200 10800 0    50   ~ 0
+X
+Text Notes 21800 10800 0    50   ~ 0
+X
+Text Notes 21800 10950 0    50   ~ 0
+X
+Text Notes 22200 11100 0    50   ~ 0
+X
+Text Notes 22000 11100 0    50   ~ 0
+X
+Text Notes 22000 11250 0    50   ~ 0
+X
+Text Notes 22200 11400 0    50   ~ 0
+X
+Text Notes 21300 10500 0    39   ~ 0
+Remember that the comparator is\nhardwired to check for A19 to be HIGH!
+Text Notes 21750 11800 0    39   ~ 0
+A18
+Text Notes 21950 11800 0    39   ~ 0
+A17
+Text Notes 22150 11800 0    39   ~ 0
+A16
+Text Notes 22350 11800 0    39   ~ 0
+A15
+Wire Notes Line
+	22500 11850 21250 11850
+Wire Notes Line
+	21250 12000 22500 12000
+Text Notes 21350 11950 0    50   ~ 0
+A000h
+Wire Notes Line
+	21250 12150 22500 12150
+Wire Notes Line
+	21250 12300 22500 12300
+Wire Notes Line
+	21250 12450 22500 12450
+Wire Notes Line
+	21250 12600 22500 12600
+Wire Notes Line
+	21250 12750 22500 12750
+Text Notes 21350 12100 0    50   ~ 0
+A800h
+Text Notes 21350 12250 0    50   ~ 0
+B000h
+Text Notes 21350 12400 0    50   ~ 0
+B800h
+Text Notes 21350 12550 0    50   ~ 0
+C000h
+Text Notes 21350 12700 0    50   ~ 0
+C800h
+Text Notes 21350 11800 0    39   ~ 0
+32K
+Text Notes 22400 11950 0    50   ~ 0
+X
+Text Notes 22400 12250 0    50   ~ 0
+X
+Text Notes 22400 12550 0    50   ~ 0
+X
+Text Notes 22200 12700 0    50   ~ 0
+X
+Text Notes 22200 11950 0    50   ~ 0
+X
+Text Notes 21800 11950 0    50   ~ 0
+X
+Text Notes 21800 12100 0    50   ~ 0
+X
+Text Notes 21800 12250 0    50   ~ 0
+X
+Text Notes 21800 12400 0    50   ~ 0
+X
+Text Notes 22200 12550 0    50   ~ 0
+X
+Wire Notes Line
+	21250 12900 22500 12900
+Text Notes 21350 12850 0    50   ~ 0
+D000h
+Wire Notes Line
+	21250 13050 22500 13050
+Wire Notes Line
+	21250 13200 22500 13200
+Wire Notes Line
+	21250 13350 22500 13350
+Wire Notes Line
+	21250 13500 22500 13500
+Wire Notes Line
+	21250 13650 22500 13650
+Text Notes 21350 13000 0    50   ~ 0
+D800h
+Text Notes 21350 13150 0    50   ~ 0
+E000h
+Text Notes 21350 13300 0    50   ~ 0
+E800h
+Text Notes 21350 13450 0    50   ~ 0
+F000h
+Text Notes 21350 13600 0    50   ~ 0
+F800h
+Text Notes 22400 12850 0    50   ~ 0
+X
+Text Notes 22400 13150 0    50   ~ 0
+X
+Text Notes 22400 13450 0    50   ~ 0
+X
+Text Notes 22000 12850 0    50   ~ 0
+X
+Text Notes 22200 13150 0    50   ~ 0
+X
+Text Notes 22200 13300 0    50   ~ 0
+X
+Wire Notes Line
+	22500 11750 22500 13650
+Wire Notes Line
+	21700 11750 21700 13650
+Wire Notes Line
+	21900 11750 21900 13650
+Wire Notes Line
+	22100 11750 22100 13650
+Wire Notes Line
+	22300 11750 22300 13650
+Text Notes 22200 12100 0    50   ~ 0
+X
+Text Notes 22000 12550 0    50   ~ 0
+X
+Text Notes 22000 12700 0    50   ~ 0
+X
+Text Notes 22000 13000 0    50   ~ 0
+X
 Wire Bus Line
 	13800 7800 13800 13500
 Wire Bus Line
 	13800 13500 16700 13500
 Wire Bus Line
 	7650 9100 7650 13500
+Text Notes 18700 14650 0    39   ~ 0
+Logic taken from https://www.lo-tech.co.uk/wiki/Lo-tech_ISA_ROM_Board
 $EndSCHEMATC
