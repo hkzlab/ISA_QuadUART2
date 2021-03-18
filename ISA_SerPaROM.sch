@@ -5021,12 +5021,6 @@ Text Label 9950 6500 0    50   ~ 0
 ~PARPORT_ACK
 Text Label 9950 6600 0    50   ~ 0
 ~PARPORT_STROBE
-Wire Bus Line
-	13800 7800 13800 13500
-Wire Bus Line
-	13800 13500 16700 13500
-Wire Bus Line
-	7650 9100 7650 13500
 Text Notes 18700 14650 0    39   ~ 0
 Logic taken from https://www.lo-tech.co.uk/wiki/Lo-tech_ISA_ROM_Board
 Text Notes 22000 13000 0    50   ~ 0
@@ -5753,4 +5747,11 @@ Wire Notes Line
 	18650 14700 22700 14700
 Wire Notes Line
 	18650 5350 18650 14700
+NoConn ~ 4700 3500
+Wire Bus Line
+	13800 7800 13800 13500
+Wire Bus Line
+	13800 13500 16700 13500
+Wire Bus Line
+	7650 9100 7650 13500
 $EndSCHEMATC
