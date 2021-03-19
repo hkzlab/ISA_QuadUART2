@@ -1538,15 +1538,15 @@ NoConn ~ 9600 7100
 NoConn ~ 9600 7400
 NoConn ~ 9600 7600
 Text Label 10300 6800 2    50   ~ 0
-PARPORT_RPA
+~PARPORT_RPA
 Text Label 10300 6900 2    50   ~ 0
-PARPORT_RPB
+~PARPORT_RPB
 Text Label 10300 7000 2    50   ~ 0
-PARPORT_RPC
+~PARPORT_RPC
 Text Label 10300 7300 2    50   ~ 0
-PARPORT_WPA
+~PARPORT_WPA
 Text Label 10300 7500 2    50   ~ 0
-PARPORT_WPC
+~PARPORT_WPC
 $Comp
 L 74xx:74LS02 U13
 U 4 1 6390CF83
@@ -1743,7 +1743,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 12400 7750 12400
 Text Label 7750 12400 0    50   ~ 0
-PARPORT_WPC
+~PARPORT_WPC
 Wire Wire Line
 	6300 8100 6950 8100
 Text Label 7750 12600 0    50   ~ 0
@@ -1830,7 +1830,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 10100 7750 10100
 Text Label 7750 10100 0    50   ~ 0
-PARPORT_WPA
+~PARPORT_WPA
 $Comp
 L Device:Jumper_NC_Dual JP2
 U 1 1 66B1799B
@@ -2432,11 +2432,11 @@ $EndComp
 Wire Wire Line
 	15900 11750 15900 11150
 Text Label 15900 11150 3    50   ~ 0
-PARPORT_RPB
+~PARPORT_RPB
 Wire Wire Line
 	15800 11750 15800 11150
 Text Label 15800 11150 3    50   ~ 0
-PARPORT_RPC
+~PARPORT_RPC
 $Comp
 L power:GND #PWR0198
 U 1 1 6C3BC407
@@ -2630,7 +2630,7 @@ Wire Wire Line
 Entry Wire Line
 	15150 13400 15050 13500
 Text Label 14950 10300 3    50   ~ 0
-PARPORT_RPB
+~PARPORT_RPB
 Wire Wire Line
 	14950 11050 15050 11050
 Wire Wire Line
@@ -2681,7 +2681,7 @@ Connection ~ 11600 8650
 Wire Wire Line
 	11600 8650 11600 8700
 Text Label 10900 8650 0    50   ~ 0
-PARPORT_RPA
+~PARPORT_RPA
 Wire Wire Line
 	12750 8400 13700 8400
 Entry Wire Line
@@ -2893,7 +2893,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 14500 11050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 14100 10300 3    50   ~ 0
-PARPORT_RPC
+~PARPORT_RPC
 Wire Wire Line
 	14100 10300 14100 11050
 Wire Wire Line
