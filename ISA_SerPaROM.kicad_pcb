@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 68)
+    (drawings 71)
     (tracks 2785)
     (zones 0)
     (modules 77)
@@ -1274,7 +1274,7 @@
     (descr "5-pin Resistor SIP pack")
     (tags R)
     (path /61C9317C)
-    (fp_text reference RN2 (at 0 -2.4 90) (layer F.SilkS)
+    (fp_text reference RN2 (at -3.556 0.127 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 6.35 2.4 90) (layer F.Fab)
@@ -4988,6 +4988,9 @@
     )
   )
 
+  (gr_line (start 214.63 120.015) (end 214.63 119.38) (layer F.SilkS) (width 0.12))
+  (gr_line (start 184.15 120.015) (end 184.15 119.38) (layer F.SilkS) (width 0.12))
+  (gr_line (start 184.15 120.015) (end 214.63 120.015) (layer F.SilkS) (width 0.12))
   (gr_text 74HCT21 (at 269.494 182.372 -90) (layer F.SilkS) (tstamp 6055349A)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -5040,7 +5043,7 @@
   (gr_text 10uF (at 223.52 193.04) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (gr_text "<- 9x 2.2nF ->" (at 194.31 120.65) (layer F.SilkS) (tstamp 60162827)
+  (gr_text "9x 2.2nF" (at 194.945 120.65) (layer F.SilkS) (tstamp 60162827)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left))
   )
   (gr_text 1.8432Mhz (at 226.06 130.81 90) (layer F.SilkS)
