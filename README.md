@@ -68,4 +68,5 @@ Port 1/3 will get IRQ4 and port 2/4 will get IRQ3.
 - 1x 74HCT245 (U29) (with some controllers, like TL16C554, I noticed improved stability by using a 74LS245)
 - 1x SC16C654, ST16C554 (U23) (all the 16C554 / 16C654 should be compatible, but to get TL16C554 working properly I had to replace U29) 
 - Jumpers for board configuration
+- Keystone 9200-1 bracket
  
