@@ -59,8 +59,9 @@ Port 1/3 will get IRQ4 and port 2/4 will get IRQ3.
 - 1x 5-pin 10k bussed resistor network (RN2)
 - 1x 1.8432Mhz DIP14 or DIP8 oscillator
 - 1x DB9 right angle, male, PCB mount connector
-- 1x 1x20pin 2.54mm header strip (you will cut this as needed)
-- 2x 2x20pin 2.54mm header strip (you will cut this as needed)
+- 1x 1x20pin 2.54mm straight header strip (you will cut this as needed)
+- 1x 2x20pin 2.54mm straight header strip (you will cut this as needed)
+- 1x 2x20pin 2.54mm angled header strip (you will cut this as needed)
 - 4x 75C185 RS232 drivers (U5, U6, U25, U26)
 - 2x 74HCT138 (U1, U2)
 - 1x 74HCT32 (U24)
