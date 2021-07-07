@@ -1,10 +1,14 @@
-# ISA Quad UART Adapter
+# ISA Quad UART Adapter (2 + 2)
 
 ## Introduction
 
 This 8-bit ISA board will provide 4 serial RS232 ports using a single 16C554 controller.
 
+Port 1 and 2 are exposed on the bracked as DB9 male connectors. Port 3 and 4 are internal.
+
 IRQs will be shared between port 1/3 and port 2/4.
+
+![ISA QuadUART 2](pics/QuadUART2.jpg)
 
 ### Disclaimer
 
