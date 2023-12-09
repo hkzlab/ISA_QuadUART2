@@ -74,3 +74,6 @@ Port 1/3 will get IRQ4 and port 2/4 will get IRQ3.
 - Keystone 9200-15 bracket
 - 1x PLCC68 THT socket
  
+## Credits
+
+- Thanks to [@A-Small-Mice](https://github.com/A-Small-Mice) for the printable bracket
